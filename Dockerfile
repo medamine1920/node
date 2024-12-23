@@ -4,4 +4,4 @@ COPY app/package*.json ./
 RUN npm install
 COPY app/ .
 CMD ["npm", "start"]
-EXPOSE 8087
+EXPOSE 3000
